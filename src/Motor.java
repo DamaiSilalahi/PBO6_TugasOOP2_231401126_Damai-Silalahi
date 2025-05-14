@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Motor extends Kendaraan {
+    public Motor(int kapasitasTangki) {
+        super(kapasitasTangki);
+    }
 
-public class Motor {
+    @Override
+    public void isiBensin(int liter) {
+        System.out.println("Motor:");
+        super.isiBensin(liter);
+    }
 }

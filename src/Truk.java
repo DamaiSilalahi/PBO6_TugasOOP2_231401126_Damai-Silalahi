@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Truk extends Kendaraan {
+    public Truk(int kapasitasTangki) {
+        super(kapasitasTangki);
+    }
 
-public class Truk {
+    @Override
+    public void isiBensin(int liter) {
+        System.out.println("Truk:");
+        super.isiBensin(liter);
+    }
 }
